@@ -94,18 +94,18 @@ const Diagnosis = () => {
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <Button
                   size="lg"
-                  variant={answers[currentStep]?.value === true ? "default" : "outline"}
+                  variant="outline"
                   onClick={() => handleAnswer(true)}
-                  className="h-24 text-lg font-medium"
+                  className="h-24 text-lg font-medium bg-white border-0 hover:bg-[#F58220] hover:text-white"
                 >
                   <CheckCircle2 className="w-6 h-6 mr-2" />
                   Ya
                 </Button>
                 <Button
                   size="lg"
-                  variant={answers[currentStep]?.value === false && answers[currentStep]?.value !== undefined ? "default" : "outline"}
+                  variant="outline"
                   onClick={() => handleAnswer(false)}
-                  className="h-24 text-lg font-medium"
+                  className="h-24 text-lg font-medium bg-white border-0 hover:bg-[#00AFC1] hover:text-white"
                 >
                   <Circle className="w-6 h-6 mr-2" />
                   Tidak
