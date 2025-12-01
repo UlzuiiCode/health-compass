@@ -158,7 +158,7 @@ const Chat = () => {
                 </Button>
               </div>
               <p className="text-xs text-muted-foreground mt-2 text-center">
-                💡 Tip: Aktifkan Lovable Cloud untuk mendapatkan respons AI yang lebih cerdas
+                💡 Tip: Informasi yang Anda berikan hanya untuk simulasi dan bukan pengganti konsultasi dokter.
               </p>
             </div>
           </Card>
